@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @GetMapping
-    public String sandeep() {
+    public String hello() {
         return "Hello AWS guy !! welcome to Code Pipeline from EBS ";
     }
 }
